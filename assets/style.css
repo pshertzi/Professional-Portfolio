@@ -1,0 +1,53 @@
+/*
+
+/*Global variable definition*/
+:root {
+    --primary: #000080;
+    --secondary: #808080;
+    --font: #000000 ;
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: var(--secondary);
+}
+
+header h1{
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--font) ;
+}
+
+header a:hover{
+    color: var(--primary);
+    border-radius: 15px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 15px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/*hero section*/
+

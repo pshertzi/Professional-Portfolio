@@ -175,10 +175,18 @@ header nav ul li a:hover {
     opacity: 1.0;
 }
 
-.run-buddy {
+
+
+.LettuceTalk{
     grid-column: 1/3;
     grid-row: span 2;
-    background-image: url(./photos/flipped-hero-image.jpeg);
+    background-image: url(./photos/LettuceTalk.jpeg);
+}
+
+.run-buddy{
+    background-image: url(./photos/run-buddy\ snip.jpeg);
+    background-position: 50% 25%;
+    
 }
 
 .urban-octo {
@@ -190,15 +198,12 @@ header nav ul li a:hover {
     background-position: 50% 25%;
 }
 
-.project-4 {
-    background-image: url(./photos/coming-soon-campaign.jpeg);
+.password-generator{
+    background-image: url(./photos/password.jpeg);
     
 }
 
-.project-5 {
-    background-image: url(./photos/coming-soon-campaign.jpeg);
-    
-}
+
 
 .work-label {
     background-color: var(--secondary);

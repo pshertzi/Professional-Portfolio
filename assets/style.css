@@ -175,11 +175,14 @@ header nav ul li a:hover {
     opacity: 1.0;
 }
 
-
-
-.LettuceTalk{
+.access-tennesee {
+    background-image: url(./photos/access\ Tennesee.jpeg);
     grid-column: 1/3;
     grid-row: span 2;
+}
+
+.LettuceTalk{
+    
     background-image: url(./photos/LettuceTalk.jpeg);
 }
 
@@ -189,9 +192,7 @@ header nav ul li a:hover {
     
 }
 
-.urban-octo {
-    background-image: url(./photos/urban-octo.jpeg);
-}
+
 
 .robot-gladiators {
     background-image: url(./photos/robotgladiators.jpeg);
